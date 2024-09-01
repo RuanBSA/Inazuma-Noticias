@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="mobile.css" media="all">
+</head>
+<body>
+    <header>
+        <span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Fórum</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="colorido"><span>G</span>ames<span>C</span>om</h1>
+            <article id="1parte">
+                <h2>Inazuma Eleven: Victory Road terá demo em português no PS4, PS5 e PCs</h2>
+                <p id="subtitulo">
+                    A demo de Inazuma Eleven: Victory Road chegará em breve aos consoles PlayStation e aos PCs com localização em português brasileiro
+                </p>
+        </div>
+
+            <div id="inazuma">
+                <img src="imagens/inazuma-eleven.webp" alt="Inazuma-Eleven" width="480px" id="menino">
+            </div>
+            <cite id="creditos">Créditos: Reprodução</cite>
+
+            <p>
+                A versão demo de Inazuma Eleven: Victory Road chegará ao PlayStation 4, PlayStation 5 e computadores – via Steam – com diversas diferenças em relação à demonstração vista no Nintendo Switch. Chegando amanhã, no dia 18 de julho de 2024, esta build terá suporte a 4K, HDR e alta taxa de quadros.
+            </p>
+        </article>
+
+        <article id="2parte">
+            <p id="segundo-paragrafo">
+                Segundo a Level-5, um dos principais atrativos será o suporte a diversas linguagens, incluindo o português brasileiro. Caso o usuário prefira, também há opções em inglês, japonês, chines tradicional, chinês simplificado, francês, italiano, alemão e espanhol.
+            </p>
+
+            <div id="iframe">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/w2-8CWwVWdE?si=pfV23lHvFurvsUq7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <p>
+                Já em questão de conteúdo, a demo de Inazuma Eleven: Victory Road trará os seguintes modos: partidas single-player / competição online (partidas aleatórias, partidas privadas, seleção de times, progressão de personagem e seleção de dados salvos) / modo história. O progresso feito não será transferido para a versão completa do game no lançamento.
+            </p>
+            <p id="quarto-paragrafo">
+                A produtora também adicionará nesta versão o “The Training Gauge”, previsto para ser disponibilizado apenas na versão completa do título e que foi finalizada a tempo de estar inclusa também na demonstração. Eles também apontam que houve melhorias na câmera, no mapa e em alguns erros vistos na interface.
+            </p>
+        </article>
+    </main>
+    <footer>
+        <cite>GamesCom © 2024 Todos os direitos reservados.</cite>
+    </footer>
+</body>
+
+<script>
+    function clickMenu() {
+        if (itens.style.display == `block`) {
+            itens.style.display = `none`
+        } else {
+            itens.style.display = `block`
+        }
+    }
+</script>
+</html>
