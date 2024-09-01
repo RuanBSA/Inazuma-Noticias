@@ -14,6 +14,7 @@ header {
     background-color: black;
     text-align: center;
     padding: 15px;
+    margin: auto;
 }
 
 header :hover {
@@ -30,6 +31,7 @@ header :hover {
 menu {
     background-color: black;
     display: none;
+    margin: auto;
 }
 
 menu > ul {
@@ -53,6 +55,7 @@ menu > ul > li > a {
 
 main {
     background-color: white;
+    margin: auto;
 }
 
 h1 {
@@ -121,7 +124,9 @@ p {
 #iframe {
     display: flex;
     margin-bottom: 30px;
+    margin: auto;
     justify-content: center;
+    width: 90vw;
 }
 
 #quarto-paragrafo {
@@ -133,6 +138,7 @@ footer {
     background-color: rgb(55, 54, 54);
     padding: 30px;
     text-align: center;
+    margin: auto;
 }
 
 footer > cite:hover {
