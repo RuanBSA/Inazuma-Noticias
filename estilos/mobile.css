@@ -55,6 +55,7 @@ h1 {
     color: black;
     text-align: center;
     padding: 20px;
+    font-size: 40px;
 }
 
 .colorido span:nth-child(1) { color: red; }
@@ -116,6 +117,7 @@ p {
 #iframe {
     display: flex;
     margin-bottom: 30px;
+    justify-content: center;
 }
 
 #quarto-paragrafo {
