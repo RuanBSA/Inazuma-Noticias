@@ -6,6 +6,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body {
+    margin: auto;
+}
+
 header {
     background-color: black;
     text-align: center;
